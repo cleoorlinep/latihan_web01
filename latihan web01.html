@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Layout Div</title>
+
+
+    <style>
+
+        /* =========================
+                    RESET
+           ========================= */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+
+        /* =========================
+                    CONTAINER
+           ========================= */
+
+        table {
+            width: 520px;
+
+            border-collapse: collapse;
+
+            margin: 0 auto;
+        }
+
+
+        td {
+            padding: 0;
+        }
+
+
+        /* =========================
+                    HEADER
+           ========================= */
+
+        .header {
+
+            height: 58px;
+
+            background-color: #ffe5c5;
+
+            text-align: center;
+            vertical-align: middle;
+
+            font-size: 12px;
+
+            border-left: 1px solid #f0a900;
+            border-right: 1px solid #f0a900;
+            border-top: 1px solid #f0a900;
+
+            border-bottom: 1px solid #6897df;
+        }
+
+
+        /* =========================
+                    NAVIGASI
+           ========================= */
+
+        .navigasi {
+
+            height: 38px;
+
+            background-color: #d5e3f8;
+
+            text-align: center;
+            vertical-align: middle;
+
+            font-size: 12px;
+
+            border-left: 1px solid #6897df;
+            border-right: 1px solid #6897df;
+
+            border-top: none;
+
+            border-bottom: 1px solid #f0a900;
+        }
+
+
+        /* =========================
+                    KONTEN
+           ========================= */
+
+        .konten {
+
+            width: 400px;
+            height: 220px;
+
+            background-color: #f8cccc;
+
+            padding: 0 40px 20px;
+
+            vertical-align: middle;
+            text-align: left;
+
+            border-left: 1px solid #f0a900;
+
+            border-right: 1px solid #82b366;
+
+            border-bottom: 1px solid #f0a900;
+
+            border-top: none;
+        }
+
+
+        .konten h1 {
+
+            margin: 0 0 16px;
+
+            font-size: 24px;
+        }
+
+
+        .konten p {
+
+            width: 280px;
+
+            margin: 0;
+
+            font-size: 12px;
+
+            line-height: 16px;
+        }
+
+
+        /* =========================
+                    MENU
+           ========================= */
+
+        .menu {
+
+            width: 120px;
+            height: 220px;
+
+            background-color: #d7ead3;
+
+            vertical-align: top;
+
+            padding: 0;
+
+            font-size: 12px;
+
+            border-right: 1px solid #f0a900;
+
+            border-bottom: 1px solid #82b366;
+
+            border-left: none;
+
+            border-top: none;
+        }
+
+        .menu strong {
+
+            display: block;
+
+            margin-top: 62px;
+        }
+
+        .menu ul {
+
+            margin-top: 8px;
+
+            padding-left: 40px;
+        }
+
+
+        /* =========================
+                    FOOTER
+           ========================= */
+
+        .footer {
+
+            height: 39px;
+
+            background-color: #ffe5c5;
+
+            text-align: center;
+            vertical-align: middle;
+
+            font-size: 12px;
+
+            border-left: 1px solid #f0a900;
+            border-right: 1px solid #f0a900;
+            border-bottom: 1px solid #f0a900;
+
+            border-top: none;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+                TABLE UTAMA
+         ========================= -->
+
+    <table>
+
+
+        <!-- =========================
+                    HEADER
+             ========================= -->
+
+        <tr>
+
+            <td
+                colspan="2"
+                class="header"
+            >
+                HEADER
+            </td>
+
+        </tr>
+
+
+        <!-- =========================
+                    NAVIGASI
+             ========================= -->
+
+        <tr>
+
+            <td
+                colspan="2"
+                class="navigasi"
+            >
+                NAVIGASI
+            </td>
+
+        </tr>
+
+
+        <!-- =========================
+                    KONTEN + MENU
+             ========================= -->
+
+        <tr>
+
+
+            <!-- KONTEN -->
+
+            <td class="konten">
+
+                <h1>
+                    Heading 1
+                </h1>
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+
+            </td>
+
+
+            <!-- MENU -->
+
+            <td class="menu">
+
+                <strong>
+                    Menu:
+                </strong>
+
+
+                <ul>
+
+                    <li>
+                        Home
+                    </li>
+
+                    <li>
+                        Berita
+                    </li>
+
+                    <li>
+                        Layanan
+                    </li>
+
+                    <li>
+                        Kontak
+                    </li>
+
+                </ul>
+
+            </td>
+
+        </tr>
+
+
+        <!-- =========================
+                     FOOTER
+             ========================= -->
+
+        <tr>
+
+            <td
+                colspan="2"
+                class="footer"
+            >
+                FOOTER
+            </td>
+
+        </tr>
+
+
+    </table>
+
+
+</body>
+
+</html>
